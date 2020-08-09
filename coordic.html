@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="author" content="qyoung2">
+	
+	<title>Coordic 코딕</title>
+	
+	<link rel="shortcut icon" href="coordic_logo2.png">
+	<link rel="stylesheet" href="coordic.css">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap" rel="stylesheet">
+	<!--<script  src="https://code.jquery.com/jquery-3.5.1.js"> </script>-->
+	<!-- Remember to include jQuery :) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+	<!-- jQuery Modal -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<link rel="stylesheet" href="jquery.modal.css"/>
+	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" /> -->
+	
+	<script src="coordic.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="inner_header">
+			<img class="logo-img" src="coordic_logo2.png"> 
+		
+			
+			<div class="logo_container">
+				<h1><span>Coordic</span>.com</h1>
+			</div>
+			<ul class="navigation">
+				
+				<div class="nav"><a><li>Stylist 찾기</li></a></div>
+				<div class="nav"><a><li>학생 찾기</li></a></div>
+				<div class="nav"><a><li>이용후기</li></a></div>
+				<div class="nav"><a><li>게시판</li></a></div>
+				<div class="nav"><a><li>Stylist/학생 등록하기</li></a></div>
+				<div class="nav"><a><li>로그인/회원가입</li></a></div>
+			</ul>
+		</div>
+	</div>
+	<div class="fashion-img"> <!--https://images.pexels.com/photos/994234/pexels-photo-994234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260-->	
+		<div class="coordic-descrip">
+			<h1>About Coordic</h1>
+		
+			<br>
+		
+			<div class="small-coordic-descrip">
+				Coordic은 패션 Stylist와<br>자신에게 어울리는 패션을 찾고자하는 학생을 연결시켜주는<br>새로운 Platform 입니다.
+			</div>
+			<br>
+			<a href="#service-descript" rel="modal:open"><input class="button_service_descrip" type="button" id="service-descript-btn" value="서비스소개 안내" onclick=""></a>
+		</div>
+
+	</div>
+	
+	<div class="container_home">
+		
+		<div class="title-bar-recommend">
+			<h1>추천 Coordic Stylists</h1>
+				<span class="more"><a href="" >더보기 ▶︎</a></span>
+		</div>
+		<div class="recommend-member-container">
+			<div class="recommend-member">
+				About 1
+			</div>
+			<div class="recommend-member">
+				About 2
+			</div>
+			<div class="recommend-member">
+				About 3
+			</div>
+			<div class="recommend-member">
+				About 4
+			</div>
+			<div class="recommend-member">
+				About 5
+			</div>
+		</div>
+		
+		<div class="title-bar-recommend">
+			<h1>NEW Coordic Stylists</h1>
+			<span class="more"><a href="">더보기 ▶︎</a></span>
+		</div>
+		
+		<div class="recommend-member-container">
+			<div class="recommend-member">
+				About 1
+			</div>
+			<div class="recommend-member">
+				About 2
+			</div>
+			<div class="recommend-member">
+				About 3
+			</div>
+			<div class="recommend-member">
+				About 4
+			</div>
+			<div class="recommend-member">
+				About 5
+			</div>
+		</div>
+		
+	</div>
+	
+	<!-- Modal HTML embedded directly into document -->
+	<div id="service-descript" class="modal">
+	  <p>Thanks for clicking. That felt good.</p>
+	  <a href="#" rel="modal:close">＜닫기 Close＞</a>
+	</div>
+	
+</body>
+</html>
+
